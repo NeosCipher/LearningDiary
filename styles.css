@@ -1,0 +1,10 @@
+/* This is the style file for the website Odin Project - Personal Lab */
+
+#externallyStyled {
+	background: red;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
