@@ -8,3 +8,17 @@
 	text-align: center;
 }
 
+div p.oddP {
+	background-color: rgba(255, 167, 167, 1);
+	font-family: Verdana, DejaVu, sans-serif;
+
+}
+
+div #UniqueOne p {
+		color: rgb(93, 93, 252);
+		font-size: 36px;
+}
+
+div #odd p.oddP {
+	font-size: 24;
+}
