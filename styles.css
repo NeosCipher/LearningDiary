@@ -15,10 +15,74 @@ div p.oddP {
 }
 
 div #UniqueOne p {
-		color: rgb(93, 93, 252);
+		color: rgba(93, 93, 252,1);
 		font-size: 36px;
 }
 
-div #odd p.oddP {
+div #oddTwo p.oddP {
 	font-size: 24;
 }
+
+div #UniqueTwo .notOdd {
+	background-color: rgba(173, 243, 173, 0.815);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.box {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      /* Hide the default style of the checkbox */
+      input[type=checkbox] {
+        visibility: hidden;
+      }
+      /* Create a custom checkbox */
+      .mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #999999;
+      }
+      /* Specify the background color for the checkbox while hovering */
+      .box:hover input + .mark {
+        background-color: #1c87c9;
+      }
+      /* Specify the background color for the checkbox when the checkbox is active */
+      .box input:active + .mark {
+        background-color: #ffcc00;
+      }
+      /* Specify the background color for the checkbox when it is checked */
+      .box input:checked + .mark {
+        background-color: #8ebf42;
+      }
+      /* Checkmark to be shown in checkbox */
+      /* It will not be shown when not checked */
+      .mark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      /* Display checkmark when checked */
+      .box input:checked + .mark:after {
+        display: block;
+      }
+      /* Styling the checkmark using webkit */
+      /* Rotated the rectangle by 45 degree and showing only two border to make it look like a tick mark */
+      .box .mark:after {
+        left: 8px;
+        bottom: 5px;
+        width: 6px;
+        height: 12px;
+        border: solid #eee;
+        border-width: 0 4px 4px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
