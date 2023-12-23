@@ -1,5 +1,9 @@
 /* This is the style file for the website Odin Project - Personal Lab */
 
+body.color.light-brown{
+  background-color: rgba(136, 104, 14, 0.83);
+}
+
 #externallyStyled {
 	background: red;
 	color: white;
