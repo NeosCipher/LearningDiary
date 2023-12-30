@@ -4,6 +4,10 @@ body.color.light-brown{
   background-color: rgba(136, 104, 14, 0.83);
 }
 
+body h1.headerCentered, pre {
+  text-align: center;
+}
+
 #externallyStyled {
 	background: red;
 	color: white;
