@@ -4,8 +4,21 @@ body.color.light-brown{
   background-color: rgba(136, 104, 14, 0.83);
 }
 
-body h1.headerCentered, pre {
-  text-align: center;
+body nav.top-menu {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+body nav h1{
+  font-family: 'Franklin Gothic Medium', 'Arial', 'Times New Roman';
+  font-size: 10;
+  text-align: left;
+  margin-left: 25px;
+  color: rgb(255, 255, 255);
+}
+
+body nav.top-menu, body pre{
+  text-align: center; 
 }
 
 #externallyStyled {
